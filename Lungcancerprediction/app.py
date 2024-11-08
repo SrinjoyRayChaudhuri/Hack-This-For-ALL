@@ -4,7 +4,7 @@ import joblib
 
 # Load the model and scaler
 model = joblib.load('Lungcancerprediction/best_logistic_model.pkl')
-model = joblib.load('Lungcancerprediction/scaler.pkl')
+scaler = joblib.load("Lungcancerprediction/scaler.pkl")
 
 # Load the data
 data = pd.read_csv('Lungcancerprediction/lung cancer data set.csv.csv')
