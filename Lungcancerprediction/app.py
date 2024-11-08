@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the model and scaler
-model = joblib.load('best_logistic_model.pkl')
+model = joblib.load('Lungcancerprediction/best_logistic_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
 # Load the data
